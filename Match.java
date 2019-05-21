@@ -1,4 +1,5 @@
 import java.util.*;
+//class cricket
 class cricket{
     public HashMap<Integer,String> countries=new HashMap<Integer,String>();
     public static HashSet<Integer> playerMap=new HashSet<Integer>();
