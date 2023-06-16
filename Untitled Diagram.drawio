@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T20:13:33.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VqqKtH6e9warkp6tX8-7" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T20:52:10.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="N038oxqCXpJjErXrkWvw" version="21.3.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3341" dy="2155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5587" dy="3062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -16,8 +16,8 @@
         <mxCell id="e-XUk_DkocaL8AsC0olE-3" value="+ Start(): void&lt;br&gt;+ Update(): void&lt;br&gt;# addTrackPathToTrackPathGroupInverse(Vector3 direction, GameObject trackPath): void&lt;br&gt;#&amp;nbsp;addAndGetTrackPathGroup&lt;span style=&quot;background-color: initial;&quot;&gt;(Vector3 direction): TrackPathGroup&lt;/span&gt;&lt;br&gt;- getTrackManager(): TrackManager&lt;br&gt;# exitPreview(): void&lt;br&gt;# rotateNode(): void&lt;br&gt;# enterPreview(): void&lt;br&gt;# enterPreview(Vector3 direction): void&lt;br&gt;- getTrackPathGroup(Vector direction): TrackPathGroup" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="e-XUk_DkocaL8AsC0olE-0" vertex="1">
           <mxGeometry y="118" width="450" height="172" as="geometry" />
         </mxCell>
-        <mxCell id="e-XUk_DkocaL8AsC0olE-5" value="TrackPathGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-640" y="40" width="480" height="220" as="geometry" />
+        <mxCell id="e-XUk_DkocaL8AsC0olE-5" value="TrackPathGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1810" y="-940" width="480" height="220" as="geometry" />
         </mxCell>
         <mxCell id="e-XUk_DkocaL8AsC0olE-6" value="-&amp;nbsp; type: TrackPathGroupType&lt;br&gt;# parentNode: GameObject&lt;br&gt;# static trackManager: TrackManager&lt;br&gt;# rotation: Vector3&lt;br&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="e-XUk_DkocaL8AsC0olE-5" vertex="1">
           <mxGeometry y="26" width="480" height="74" as="geometry" />
@@ -29,13 +29,13 @@
           <mxGeometry y="108" width="480" height="112" as="geometry" />
         </mxCell>
         <mxCell id="e-XUk_DkocaL8AsC0olE-9" value="&amp;lt;enum&amp;gt; TrackPathGroupType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="150" width="200" height="110" as="geometry" />
+          <mxGeometry x="-80" y="40" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="e-XUk_DkocaL8AsC0olE-10" value="STRAIGHT&lt;br&gt;BRIDGE&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="e-XUk_DkocaL8AsC0olE-9" vertex="1">
           <mxGeometry y="26" width="200" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9OUOYf-8_BokV1W52oxd-0" value="TrackPath" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-1030" y="450" width="410" height="220" as="geometry" />
+          <mxGeometry x="-1390" y="300" width="410" height="220" as="geometry" />
         </mxCell>
         <mxCell id="9OUOYf-8_BokV1W52oxd-1" value="# ToNode1: GameObject&lt;br&gt;# ToNode2: GameObject&lt;br&gt;# trackLength: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9OUOYf-8_BokV1W52oxd-0" vertex="1">
           <mxGeometry y="26" width="410" height="64" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry y="98" width="410" height="122" as="geometry" />
         </mxCell>
         <mxCell id="9OUOYf-8_BokV1W52oxd-4" value="NormalTrackPathGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="20" y="300" width="550" height="420" as="geometry" />
+          <mxGeometry x="-1530" y="-540" width="550" height="420" as="geometry" />
         </mxCell>
         <mxCell id="9OUOYf-8_BokV1W52oxd-5" value="- left: GameObject&lt;br&gt;- right: GameObject&lt;br&gt;- straight: GameObject&lt;br&gt;- previewLeft: GameObject&lt;br&gt;- previewRight: GameObject&lt;br&gt;- previewStraight: GameObject&lt;br&gt;#&amp;nbsp;previewTracks: List&amp;lt;GameObject&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9OUOYf-8_BokV1W52oxd-4" vertex="1">
           <mxGeometry y="26" width="550" height="134" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry y="168" width="550" height="252" as="geometry" />
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-0" value="NormalCurveTrackPath" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-680" y="910" width="560" height="190" as="geometry" />
+          <mxGeometry x="-1110" y="860" width="560" height="190" as="geometry" />
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-1" value="+ PI: float&lt;br&gt;+&amp;nbsp;rightCurveControlPoints: List&amp;lt;Vector3&amp;gt;&lt;br&gt;+ leftCurveControlPoints: List&amp;lt;Vector3&amp;gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gkGAwZmsbAqTmIJ4u7XC-0">
           <mxGeometry y="26" width="560" height="74" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry y="108" width="560" height="82" as="geometry" />
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-4" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-size: 14px; line-height: 19px;&quot;&gt;BridgeUpTrackPath&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1475" y="920" width="470" height="120" as="geometry" />
+          <mxGeometry x="-1740" y="860" width="470" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-5" value="+ controlPoints: List&amp;lt;Vector3&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gkGAwZmsbAqTmIJ4u7XC-4">
           <mxGeometry y="26" width="470" height="26" as="geometry" />
@@ -95,15 +95,39 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-12" value="NormalStraightTrackPath" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-927.5" y="980" width="205" height="34" as="geometry" />
+          <mxGeometry x="-1287.5" y="790" width="205" height="34" as="geometry" />
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gkGAwZmsbAqTmIJ4u7XC-12">
           <mxGeometry y="26" width="205" height="8" as="geometry" />
         </mxCell>
         <mxCell id="gkGAwZmsbAqTmIJ4u7XC-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.486;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="gkGAwZmsbAqTmIJ4u7XC-12">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-830" y="670" as="sourcePoint" />
+            <mxPoint x="-1190" y="520" as="sourcePoint" />
             <mxPoint x="-382" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkGAwZmsbAqTmIJ4u7XC-18" value="BridgeTrackPathGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2080" y="-540" width="430" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gkGAwZmsbAqTmIJ4u7XC-19" value="+ straightBridge: GameObject" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gkGAwZmsbAqTmIJ4u7XC-18">
+          <mxGeometry y="26" width="430" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gkGAwZmsbAqTmIJ4u7XC-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="gkGAwZmsbAqTmIJ4u7XC-18">
+          <mxGeometry y="52" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gkGAwZmsbAqTmIJ4u7XC-21" value="-&amp;nbsp;getNextNodeRotation(GameObject path, Vector3 rotation)&#39;&lt;br&gt;- getNextNodePosition(GameObject path)&lt;br&gt;-&amp;nbsp;createNextNode(GameObject track)&lt;br&gt;+ getNextNode(GameObject track)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="gkGAwZmsbAqTmIJ4u7XC-18">
+          <mxGeometry y="60" width="430" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gkGAwZmsbAqTmIJ4u7XC-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.488;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e-XUk_DkocaL8AsC0olE-8" target="gkGAwZmsbAqTmIJ4u7XC-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-340" y="400" as="sourcePoint" />
+            <mxPoint x="-180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gkGAwZmsbAqTmIJ4u7XC-23" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.496;exitY=1.034;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="e-XUk_DkocaL8AsC0olE-8" target="9OUOYf-8_BokV1W52oxd-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-196" y="314" as="sourcePoint" />
+            <mxPoint x="-435" y="465" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
